@@ -1,27 +1,37 @@
-name: generate-snake-game-from-github-contribution-grid
+name: Generate Contribution Snake
 permissions:
-  contents: write
+  contents: read  # sadece read yeterli
 on:
-  schedule: # execute every 12 hours
-    - cron: "0 */12 * * *"
+  schedule:
+    - cron: "0 */12 * * *" # her 12 saatte bir
   workflow_dispatch:
 
 jobs:
   build:
-    name: Jobs to update datas
     runs-on: ubuntu-latest
     steps:
-      # Snake Animation
-      - uses: Platane/snk@v3.4.1
+      # Checkout default branch tüm history ile
+      - name: Checkout repository
+        uses: actions/checkout@v3
+        with:
+          fetch-depth: 0  # **tüm commitleri** getir
+
+      # Snake animation
+      - name: Generate Contribution Snake
+        uses: Platane/snk@v3.4.1
         with:
           github_user_name: cebo54
           outputs: |
-            dist/github-contribution-grid-snake.svg
-            dist/github-contribution-grid-snake-dark.svg?palette=github-dark
+            github-contribution-grid-snake.svg
+            github-contribution-grid-snake-dark.svg?palette=github-dark
+          branch: main  # default branch’in adı
+          token: ${{ secrets.GITHUB_TOKEN }}
 
-      - uses: crazy-max/ghaction-github-pages@v3.1.0
+      # Push to output branch
+      - name: Publish Snake
+        uses: crazy-max/ghaction-github-pages@v3
         with:
           target_branch: output
-          build_dir: dist
+          build_dir: .
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
