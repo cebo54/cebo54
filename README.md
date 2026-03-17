@@ -8,4 +8,6 @@ I'm Cebrail Kaya 🚀
 - ⚡ Fun fact: I love building scalable systems
 
 ---
-![snake]((https://github.com/cebo54/cebo54/blob/output/github-contribution-grid-snake-dark.svg))
+## 🐍 Contribution Snake
+
+![snake animation](https://raw.githubusercontent.com/cebo54/cebo54/output/github-contribution-grid-snake-dark.svg)
