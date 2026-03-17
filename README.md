@@ -1,17 +1,16 @@
 ## Hi there 👋
 
-<!--
-**cebo54/cebo54** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+I'm Cebrail Kaya 🚀
 
-Here are some ideas to get you started:
+- 🔭 I’m currently working on .NET & React projects
+- 🌱 I’m currently learning DevOps & CI/CD
+- 💬 Ask me about Docker, React, .NET
+- ⚡ Fun fact: I love building scalable systems
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
-(https://raw.githubusercontent.com/cebo54/cebo54/c466e6ce767aaf2cc9a7d347dee20b9b435d538b/github-contribution-grid-snake-dark.svg)
+---
+
+<h2 align="center">🐍 Contribution Snake</h2>
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/cebo54/cebo54/output/github-contribution-grid-snake-dark.svg" />
+</p>
