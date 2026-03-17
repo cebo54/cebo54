@@ -10,4 +10,4 @@ I'm Cebrail Kaya 🚀
 ---
 ## 🐍 Contribution Snake
 
-![snake animation](https://raw.githubusercontent.com/cebo54/cebo54/output/github-contribution-grid-snake-dark.svg)
+![snake animation](https://raw.githubusercontent.com/cebo54/cebo54/output/github-contribution-grid-snake-dark.svg?cacheBust=1)
