@@ -14,5 +14,4 @@ Here are some ideas to get you started:
 - 😄 Pronouns: ...
 - ⚡ Fun fact: ...
 -->
-
-![github contribution grid snake animation](https://raw.githubusercontent.com/cebo54/cebo54/output/github-contribution-grid-snake-dark.svg)
+![github contribution grid snake animation](https://raw.githubusercontent.com/cebo54/cebo54/c466e6ce767aaf2cc9a7d347dee20b9b435d538b/github-contribution-grid-snake-dark.svg)
